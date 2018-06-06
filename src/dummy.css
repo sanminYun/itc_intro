@@ -1,0 +1,95 @@
+.curriculum-goal-1,
+.curriculum-goal-2,
+.curriculum-goal-3,
+.curriculum-goal-4,
+.curriculum-goal-5 {
+
+  margin-right: -5px;
+  margin-left: -5px;
+  color: #fff;
+}
+
+.curriculum-goal-1 {
+  padding: 10px;
+  background-color: #ffd55d;
+}
+
+.curriculum-goal-2 {
+  padding: 10px 30px 10px 10px;
+  background-color: #aed65c;
+}
+
+.curriculum-goal-3 {
+  padding: 10px 50px 10px 10px;
+  background-color: #3aaa35;
+}
+
+.curriculum-goal-4 {
+  padding: 10px 70px 10px 10px;
+  background-color: #3aaa35;
+}
+
+.curriculum-goal-5 {
+  padding: 10px 90px 10px 10px;
+  background-color: #14585b;
+}
+
+.curriculum-goal-1-side,
+.curriculum-goal-1-left-side,
+.curriculum-goal-2-side,
+.curriculum-goal-2-left-side,
+.curriculum-goal-3-side,
+.curriculum-goal-3-left-side,
+.curriculum-goal-4-side,
+.curriculum-goal-4-left-side,
+.curriculum-goal-5-side,
+.curriculum-goal-5-left-side {
+  padding: 10px 5px;
+  border-radius: 100%;
+
+  /*float: right;*/
+}
+
+.curriculum-goal-1-left-side {
+  background-color: #ffd55d;
+}
+.curriculum-goal-1-side {
+  background-color: #ffe498;
+  margin-right: 20px;
+}
+
+
+
+.curriculum-goal-2-left-side {
+  background-color: #aed65c;
+}
+.curriculum-goal-2-side {
+  background-color: #cbf07e;
+  margin-right: 20px;
+}
+
+.curriculum-goal-3-left-side {
+  background-color: #3aaa35;
+}
+.curriculum-goal-3-side {
+  background-color: #65d460;
+  margin-right: 20px;
+}
+
+.curriculum-goal-4-left-side {
+  background-color: #3aaa35;
+}
+.curriculum-goal-4-side {
+  background-color: #3db6b5;
+  margin-right: 20px;
+}
+
+.curriculum-goal-5-left-side {
+  background-color: #14585b;
+}
+.curriculum-goal-5-side {
+  background-color: #28979c;
+  margin-right: 20px;
+}
+
+
