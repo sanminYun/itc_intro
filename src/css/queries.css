@@ -3,6 +3,58 @@
 /* Big tablets to 1200 px (widths smaller than the 1140px row) */
 @media only screen and (max-width:1200px) {
 
+  .cover-title,
+  .cover-text {
+    width: 90%;
+    padding: 0 3%;
+  }
+  .cover-title img {
+    left:710px;
+  }
+
+
+  .brand-img {
+    height:230px;
+  }
+
+  .section-brand .btn {
+    top:500px;
+    /*transform: translate(0, 50px);*/
+  }
+
+  .ts-curriculum-intro-copy,
+  .tc-curriculum-intro-copy {
+  }
+
+
+  .curriculum-icon {
+    height: 40px;
+  }
+  .btn-homepage .btn {
+    padding: 10px 50px;
+  }
+  .ts-curriculum-intro-copy h4,
+  .tc-curriculum-intro-copy h4 {
+    font-size:150%;
+  }
+  .tc-curriculum-period {
+    top: 42.2%;
+    left: 40%;
+  }
+
+  .curriculum-info {
+    margin-left: 20px;
+  }
+  .curriculum-info:nth-of-type(2){
+    margin-left: 33%;
+  }
+  .curriculum-info:nth-of-type(3){
+    margin-left: 60%;
+  }
+  .ts-a,
+  .ts-b {
+    margin: 0 10% -1px 10%;
+  }
 }
 
 
@@ -10,30 +62,345 @@
 
 /* small tablets to big tablets from 768 - 1023 px */
 @media only screen and (max-width:1023px) {
-  body { font-size:18px; }
+  html { font-size:0.8em; }
 
   section { padding: 60px 0; }
 
+  .cover-title ,
+  .cover-text {
+    width: 90%;
+  }
+  .cover-title img {
+    left:560px;
+    height:55%;
+  }
+
+  .logo {
+    padding: 20px 0 ;
+  }
+
+  .social {
+    font-size: 240%;
+  }
+  .social ul{
+    margin: 20px 0;
+  }
+
+  .sticky-nav .logo {
+    height:40px;
+  }
+
+  .sticky-nav-menu {
+    font-size: 140%;
+    /*margin-top: 10px;*/
+  }
+  .sticky-nav-menu ul{
+    margin:10px 0;
+  }
+  .sticky-nav-menu ul li{
+    padding: 0 10px;
+  }
+
+  .sticky-nav-menu li a {
+    padding-bottom: 10px;
+  }
+  .brand-img {
+    height:20vw;
+  }
+  .brand-logo-single {
+    height:40px;
+  }
+  .brand-logo-single-es {
+    height:30px;
+  }
+
+  .section-brand .btn {
+    /*top:430px;*/
+    /*transform: translate(0, 50px);*/
+  }
+  .brand-description {
+    text-align: justify;
+    padding: 0 10px;
+  }
+
+
+  .ts-curriculum-intro-copy br{
+    /*display:none;*/
+  }
+  .tc-curriculum-intro-copy br{
+    display:none;
+  }
+  .curriculum-copy,
+  .curriculum-copy-category {
+    font-weight: 500;
+    font-size:140%;
+  }
+
+  .curriculum-icon {
+    height:30px;
+    width: auto;
+  }
+  .indicator {
+    height:65px;
+    width:65px;
+  }
+
+  .pl-50 {
+    padding-left: 0;
+  }
+
+  .tc-curriculum-main .curriculum-copy-category-box {
+    top:230px;
+  }
+  .section-tc-curriculum .ts-curriculum-main h4,
+  .section-ts-curriculum .ts-curriculum-main h4 {
+    font-size: 220%;
+    margin-top:20px;
+  }
+
+  .curriculum-info {
+    margin-left: 20px;
+  }
+  .curriculum-goal {
+    height: 400px;
+
+  }
+  .curriculum-effect-box {
+    width: 90vw;
+  }
+  .ts-a,
+  .ts-b {
+    margin: 0 3% -1px 3%;
+  }
+
+  .curriculum-info {
+  }
+  .curriculum-info:nth-of-type(2){
+  }
+  .curriculum-info:nth-of-type(3){
+  }
+
+
+  .indicator-bridge {
+    width: 25vw;
+  }
+
+  .btn-homepage .btn {
+    padding: 10px 30px;
+  }
+  .arrow-line {
+    width: 30%;
+  }
+  .tc-curriculum-main .curriculum-copy {
+    padding: 0 15%;
+  }
+
+  .tc-curriculum-intro-copy {
+    margin: 0 40px 20px 40px;
+  }
+  .tc-curriculum-intro-copy h4 {
+  }
+
 }
+
+
+
+
+
+
 
 /* small phones to small tablets from 481 - 767 px */
 /* iPad's width is 768 px */
 @media only screen and (max-width:767px) {
-  body { font-size: 16px; }
+  html { font-size:0.8em; }
   section { padding: 30px 0; }
-  .row { padding:0 4% }
   .col {
     width: 100%;
     margin: 0 0 4% 0;
   }
+  h1 { font-size: 230%; }
+  h2 { font-size: 180%; }
+  h3 { font-size: 160%}
 
-  h1 { font-size: 180%; }
-  h2 { font-size: 150%; }
+  .cover-title img {
+    left:380px;
+    height:50%;
+  }
 
+  .ac-bundle .col{
+    text-align:center;
+  }
+
+  .ac-copy {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section-about-corporation div:nth-of-type(3) {
+    display:none;
+  }
+
+  .section-about-corporation div:nth-of-type(4) {
+    display:block;
+  }
+
+  .brand-description {
+    width: 400px;
+    margin:0 auto;
+  }
+
+  .brand-img {
+    height:225px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .btn-homepage .btn {
+    padding: 10px 20vw;
+  }
+  .brand-logo-single {
+    height: 55px;
+  }
+  .brand-logo-single-es {
+    height: 50px;
+  }
+
+
+
+  /**Sticky Nav Control**/
+  .sticky-nav .logo {
+    margin: 5px 0;
+    height:42px;
+    float:left;
+  }
+
+
+  .sticky-nav-menu {
+    font-size: 140%;
+
+  }
+  .sticky-nav-menu-list {
+    display:none;
+  }
+
+  .sticky-nav-menu ul {
+    padding-top:3px;
+    margin: 10px 0;
+  }
+  .sticky-nav-menu ul li{
+    display:block;
+    padding: 5px 0;
+
+  }
+
+  .sticky-nav-menu li a {
+    padding-bottom: 2px;
+  }
+
+  .sticky-nav-icon {
+    float: right;
+  }
+  .sticky-nav-icon i {
+    display: inline-block;
+  }
+  .section-brand h3 {
+    margin-bottom: 30px;
+  }
+
+  .brand-img {
+    width: 90%;
+    height: auto;
+  }
+  .curriculum-info {
+    width: 80%;
+  }
+  .curriculum-copy {
+    font-size:160%;
+  }
+
+
+  .curriculum-info,
+  .curriculum-info:nth-of-type(2),
+  .curriculum-info:nth-of-type(3){
+    margin: 0 30px;
+  }
+
+  .indicator-bridge {
+    width: 10vw;
+  }
+  .ts-curriculum-intro-copy,
+  .tc-curriculum-intro-copy {
+    padding: 0 10px;
+  }
+  .curriculum-effect-box {
+    width: 100vw;
+  }
+  .curriculum-effect-box h4{
+    font-size: 160%;
+    padding: 0 20px;
+  }
+
+  .arrow-line {
+    width: 10%;
+    margin-left: 75px;
+  }
+  .effect-copy strong {
+    padding-right: 10px;
+  }
+  .tc-curriculum-box {
+    width: 90%;
+    height: auto;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    position:relative;
+    margin:0 auto;
+    overflow:initial;
+
+  }
+
+  .tc-curriculum-box .row:first-of-type {
+    border-bottom: none;
+  }
+  .tc-curriculum-box .col:first-of-type {
+    border-right: none;
+  }
+  .tc-curriculum-title-bg{
+    margin:0 0 20px 0;
+  }
+  .tc-curriculum-period {
+   display:none;
+
+  }
+  .curriculum-icon {
+    height: 65px;
+    width: auto;
+  }
+  .tc-curriculum-box h4 {
+    font-size: 230%;
+  }
+  .tc-curriculum-intro-copy h4:first-of-type {
+    display:none;
+  }
+
+  tc-curriculum-intro-copy h4:nth-of-type(2) {
+    display:block;
+  }
 }
 
 /* Small phones from 0 - 480 px */
 @media only screen and (max-width:480px) {
   section {padding: 25px 0; }
+  h1 { font-size: 220%; }
+  h2 { font-size: 170%; }
+  h3 { font-size: 150%}
+
+  .cover-title img {
+    left:350px;
+    height:50%;
+  }
+
 }
 
